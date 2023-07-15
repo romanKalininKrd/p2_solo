@@ -32,16 +32,6 @@ const unsplash = createApi({
   accessKey: process.env.MY_ACCESS_KEY,
   fetch: nodeFetch,
 });
-// const unsplash = new Unsplash({ accesskey: process.env.AccessKey });
-
-// const {createApi} = require('unsplash');
-// const nodeFetch = require('node-fetch');
-//
-// declire global {
-//   let fetch: typeof nodeFetch.default;
-//   type RequestInit nodeFetch.RequestInit;
-//   type Responce = nodeFetch
-// }
 
 const app = express();
 
